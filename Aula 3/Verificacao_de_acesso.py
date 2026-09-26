@@ -1,0 +1,27 @@
+Login = input("Crie o seu Email/usuário: ")
+
+Senha = input("Crie a sua senha: ")
+
+input("Conta criada. Aperte ENTER para começar login")
+
+login = input("Insira o seu Email/usuário: ")
+
+senha = input("Insira a sua senha: ")
+
+if login == Login:
+    print("Login correto.")
+
+else:
+    print("Login incorreto.")
+
+if senha == Senha:
+    print("Senha correta.")
+
+else:
+    print("Senha incorreta.")
+
+if login == Login and senha == Senha:
+    print("Acesso concedido.")
+
+else:
+    print("Acesso Negado.")
